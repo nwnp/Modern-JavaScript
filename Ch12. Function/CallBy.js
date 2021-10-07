@@ -73,5 +73,5 @@ repeat(5, logAll);
 var logOdds = function (i) {
   if (i % 2) console.log(i);
 };
-// 함수의 매개변수를 ㅗㅌㅇ해 함수의 외부에서 콜백 함수를 전달받은 함수를 고차함수라고 한다
+// 함수의 매개변수를 통해 함수의 외부에서 콜백 함수를 전달받은 함수를 고차함수라고 한다
 repeat(5, logOdds);
